@@ -1,9 +1,8 @@
-n1 = int(input())
-n2 = int(input())
-soma=0
-while n2 + 2 < n1:
+numero = int(input())
+count =0
 
-    soma = n2 + 2 
-    
-    n2 = n2 + 2
-print (soma)
+while count <= numero:
+
+    if count%2 != 0:
+        print (count)
+    count +=1
